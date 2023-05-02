@@ -1,0 +1,475 @@
+.indexBody {
+    margin: 0px;
+    background-color: #74B1B5;
+}
+
+.aboutBody {
+    margin: 0px;
+    background-color: #C4FBFF;
+}
+
+#heroBanner {
+background-color: #F8EDB5;
+height: 274px;
+padding: 38px 50px 50px 50px;
+}
+
+#aboutHeroBanner {
+    background-color: #F8EDB5;
+    height: 274px;
+    padding: 60px 50px 50px 80px;
+    display: flex;
+}
+
+.headshot {
+    height: 567px;
+    margin-right: 80px;
+}
+
+.aboutMeheader {
+    width: 437px;
+    padding: 62px 57px 27px 87px;
+}
+
+.aboutMecopy {
+    border-bottom: 4px solid white ;
+}
+
+.skillsHeader {
+    padding-left: 84px;
+}
+
+.skillsCircles {
+    padding: 0px 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));   
+    margin-bottom: 50px; 
+}
+
+.editorialCircle {
+    /* position: relative;
+    top: 78px;
+    left: 86px; */
+    z-index: 10;
+    background-color: #966AB0;
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+    padding: 50px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.leftCircle {
+    padding: 100px;
+    box-sizing: border-box;
+    background-color: #19133A;
+    width: 700px;
+    height: 700px;
+    border-radius: 350px;
+    color: white;
+}
+
+.performanceMarketing {
+    text-align: center;
+    padding: 7px 80px 5px 89px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.brandFramework {
+    /* position: relative;
+    top: 78px;
+    left: 86px; */
+    z-index: 10;
+    background-color: #74B1B5;
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+    padding: 50px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.rightCircle {
+    padding: 100px;
+    box-sizing: border-box;
+    background-color: #F8EDB5;
+    width: 700px;
+    height: 700px;
+    border-radius: 350px;
+    color: white;
+}
+
+.uxUI {
+    text-align: center;
+    padding: 7px 80px 5px 89px;
+    font-family: 'Lato', sans-serif;
+    color: #19133A;
+}
+
+
+#logoHed {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo-lockup {
+    width: 100px;
+    height: 100px;
+    padding-right: 30px;
+}
+
+
+h1 {
+    font-size: 100px;
+    font-family: 'Aboreto', cursive;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Aboreto', cursive;
+    font-size: 38px;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 28px;
+}
+
+p1 {
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+}
+
+p2 {
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+}
+
+p3 {
+    font-size: 18px;
+}
+
+.moreAboutme {
+    padding: 30px 298px 30px 84px;
+}
+
+img {src: url("../images/Logo.png");
+}
+
+#navBar {
+    display: flex;
+    flex-direction: column;
+    background-color: #19133A;
+    margin: 0;
+    /* height: 570px; */
+    height: 57px;
+    padding: 50px 0px 80px 40px;
+    transition: 2s;
+}
+
+.navX {
+    font-family: 'Aboreto', cursive;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    opacity: 0;
+    transition: 2s;
+    display: none;
+}
+
+.navX:hover {
+    cursor: pointer;
+}
+
+#navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+    transition: 2s;
+    opacity: 0;
+    display: none;
+}
+
+.closedNav {
+    font-family: 'Aboreto', cursive;
+    font-size: 32px;
+    color: white;
+    text-decoration: underline;
+}
+
+.navItem {
+    font-family: 'Aboreto', cursive;
+    font-size: 32px;
+    color: white;
+    text-decoration: underline;
+}
+
+#clickMe:hover {
+    cursor: pointer;
+}
+
+.navHeroBanner {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    height: 362px;
+}
+
+.navContact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    background-color: #966AB0;
+    /* height: 252px; */
+    height: 175px;
+    width: 100%;
+    /* padding: 191px 20px 23px 42px; */
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 2s;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+    display: none;
+}
+
+#workBanner {
+    display: flex;
+    flex-direction: row;
+    height: 590px;
+}
+
+.workBannerColumn {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.buttonText {
+    transform: rotate(270deg) translate(298px, -210px);
+    font-family: 'Aboreto', cursive;
+    font-size: 32px;
+    width: 600px;
+}
+
+#performanceMarketing {
+    background-color: #966AB0;
+    color: white;
+}
+
+#print {
+    color: white;
+}
+
+#digital {
+    background-color: #19133A;
+    color: white;
+}
+
+#broadcast {
+    background-color: #F8EDB5;
+}
+
+#uxDesign {
+    background-color: #C4FBFF;
+}
+
+#footer {
+    background-color: #74B1B5;
+    height: 323px;
+    background-color: #74B1B5;
+}
+
+.footerImage {
+    position: absolute;
+    right: 0px;
+}
+
+.footerContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 10;
+}
+
+.botIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 18%;
+    height: 270px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#tagline1 {
+    font-family: 'Aboreto', cursive;
+    color: white;
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+#tagline2 {
+    font-family: 'Aboreto', cursive;
+    color: white;
+    font-size: 48px;
+    width: 250px;
+    margin-top: 150px;
+}
+
+#botNavigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.botNavItem {
+    color: white;
+    font-family: 'Aboreto', cursive;
+    font-size: 24px;
+    text-decoration: underline;
+
+}
+
+
+
+
+/*----media queries----*/
+@media screen and (max-width: 750px) {
+    .leftCircle{
+        border-radius: 0px;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rightCircle {
+        border-radius: 0px;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skillsCircles{
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+
+    .performanceMarketing {
+        padding: 0px;
+    }
+
+    .uxUI {
+        padding: 0px;
+    }
+
+    .navHeroBanner {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #aboutHeroBanner {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    } 
+
+
+    .headshot {
+        height: auto;
+        margin-right: 0px;
+        width: 200px;
+    }
+
+    #navBar {
+        height: fit-content;
+        padding: 30px 0px 30px 40px;
+    }
+
+    .navItem {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .moreAboutme {
+        padding: 30px 20px 30px 40px;
+    }
+
+    .aboutMeheader {
+        width: auto;
+        padding: 22px 50px 2px 40px;
+    }
+
+    .skillsHeader {
+        padding-left: 40px;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    .footerContent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #tagline1 {
+        text-align: center;
+    }
+    
+    #tagline2 {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .botIcons {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px 30px;
+        margin: 15px 0px;
+        width: 100%;
+        height: auto;
+    }
+
+    #botNavigation {
+        display: none;
+    }
+
+    .footerImage {
+        display: none;
+    }
+}
